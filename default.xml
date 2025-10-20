@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Remote default: all project in GitHub user -->
+  <remote name="github" fetch="https://github.com/ngoctruongns/" />
+  <default remote="github" revision="main" />
+
+  <!-- <project name="robot_control" path="ros2_ws/control" revision="dev-tuning" /> -->
+
+  <!-- Arduino Firmware  -->
+  <project name="arduino_velocity_control" path="velocity_control" />
+  <project name="serial_comm" path="velocity_control/lib" />
+  <project name="arduino_diff_drive" path="diff_drive" />
+  <project name="serial_comm" path="diff_drive/lib" />
+
+</manifest>
