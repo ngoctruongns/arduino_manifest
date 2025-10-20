@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- Remote default: all project in GitHub user -->
-  <remote name="github" fetch="https://github.com/ngoctruongns/" />
-  <default remote="github" revision="main" />
+  <remote name="origin" fetch="https://github.com/ngoctruongns/" />
+  <default remote="origin" revision="main" />
 
-  <!-- <project name="robot_control" path="ros2_ws/control" revision="dev-tuning" /> -->
+  <!-- Repo templete guide -->
+  <!-- <project name="serial_comm" path="common_lib/serial_comm" remote="origin" revision="main" /> -->
 
   <!-- Arduino Common Library  -->
   <project name="serial_comm" path="common_lib/serial_comm" />
