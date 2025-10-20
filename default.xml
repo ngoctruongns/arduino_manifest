@@ -6,10 +6,11 @@
 
   <!-- <project name="robot_control" path="ros2_ws/control" revision="dev-tuning" /> -->
 
+  <!-- Arduino Common Library  -->
+  <project name="serial_comm" path="common_lib/serial_comm" />
+
   <!-- Arduino Firmware  -->
   <project name="arduino_velocity_control" path="velocity_control" />
-  <project name="serial_comm" path="velocity_control/lib" />
   <project name="arduino_diff_drive" path="diff_drive" />
-  <project name="serial_comm" path="diff_drive/lib" />
 
 </manifest>
